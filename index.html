@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Porfolio Personal</title>
+
+    <link href="estilo-pag.css" type="text/css" rel="stylesheet"/>
+ 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet"> 
+
+
+<style>
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+</style>
+
+</head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+      <div class="container-fluid">
+        <a class="nombre" href="index.html">Barbara Barrueta</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" 
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+            <a class="nav-link text-dark" aria-current="page" href="#software">Desarrollo de Software</a></li>
+            <li class="nav-item">
+            <a class="nav-link text-dark" aria-current="page" href="#hosting">Diseño y alojamiento de sitios web</a></li>
+             <li class="nav-item">
+            <a class="nav-link text-dark" aria-current="page" href="pag-dis.html" tabindex="-1" 
+            aria-disabled="true">Diseño gráfico</a></li>
+            <li class="nav-item">
+            <a class=" ms-5 btn btn-outline-dark" href="#contacto" role="button">Contacto</a>
+            </li>
+            </ul>
+            
+            <!--   <form class="d-flex">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>--> 
+        </div>
+      </div>
+    </nav>
+    <br>
+    <br>
+  <div class="container1">
+     <div class="col1">
+      <h1>Bienvenidos a mi porfolio</h1>
+      <h2>Quien soy</h2><br>
+      <p>Diseñadora Gráfica, programadora en html, css, java. 
+       Programador de Software, con conocimentos en 
+        producción y mantenimiento de elementos o 
+        conjuntos de software que requieran integrarse para elaborar aplicaciones.
+       </p>
+ <!-- <p><button type="button" class="btn btn-outline-light">Light</button>
+        <button type="button" class="btn btn-outline-light">Light2</button></p> -->
+     </div>
+     <div class="col2">
+       <img  class= "float-md-end" src="img/fotopersonal1.png" width="300px"  height="350px"  alt="foto-personal">
+       <p></p>
+     </div>
+  </div>
+
+    <br>
+
+    <div class="container2">
+      <div class="col1">
+        <p id="software"><h3>Desarrollo de Software</h3></p>    
+        <p>Planificar y crear dos tipos de software:
+            <strong>sistemas,</strong> que permiten hardware para funcionar y 
+            <strong>aplicaciones, </strong> que realizan tareas de usuario, 
+            tales como procesamiento de textos, gestión de base de 
+            datos y el diseño en tres dimensiones. </p> 
+            <p>
+            Escuchar con atención los problemas, proponer y aplicar soluciones
+            llevando a cabo el mantenimiento y pruebas para asegurar que los sistemas 
+            funcionan correctamente. 
+            Configurar el nuevo hardware y software, junto con los usuarios para usarlos.</p>   
+      </div>
+      <div class="col2 image">
+        <div class= "fondo-tex">
+          <p><h3>Hacerlo posible</h3></p>
+          <p>Diseño e ilustración de marcas </p>
+          <p>Diseño y alojamiento de sitios web</p>
+          <p>Automatización de procesos y operaciones</p> 
+          <p>Aplicaciones para interactuar con clientes</p> 
+          <p>Seguimiento de proyectos</p>
+        </div> 
+       </div>
+    </div>
+    <div class="container1">
+      <div>
+       <p id="hosting"> <h1>Hosting web</h1></p>
+      <p>Servicio de diseño, alojamiento web y registro de dominio. <br>
+          tu sitio web rápido, seguro y siempre activo.</p>
+          <p></p>
+      </div>
+      <p></p>
+      <p></p>
+    </div> 
+
+    <form class="p-2 mb-2 bg-secondary text-white">
+      <p id="contacto"> <h1>Contacto</h1></p>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">direccion de mail</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">coloque el mail donde quiere recibir la informacion.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">escribe tu inquietud.</textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <footer>
+    <div class="row justify-content-between">
+       <div class="col align-self-start"> 
+         <p>Proyectos: <a href="https://www.miramaralquila.com.ar">www.miramaralquila.com.ar</a></p>
+       </div> 
+       <div class="col align-self-end">
+         <p><img src="img/at.svg" height="30px" width="30" alt="aroba"> Mis redes:</img>
+         <a href="https://www.facebook.com/barbara.barrueta.5/">facebook</a>
+         <a href="https://github.com/barbarabarrueta">github.com</a></p>
+      </div>  
+    </div>  
+    </footer>
+  </body>
+
+</html>
+

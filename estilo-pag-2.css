@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(184, 46, 189);
+  background-image: url("");
+  font-size: 24px;
+  color: white;
+  margin:10px;
+}
+
+.nombre{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(184, 46, 189);
+    padding-right: 10px;
+}
+
+h1 {
+    color: rgb(255, 245, 245);
+    text-align: left;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 42px;
+  }
+
+.texto {
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: 42px;
+  }
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.container1 div {
+    flex-direction: row;
+   padding: 5px;
+}
+    
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(247, 218, 245);
+    align-content: center;
+    padding: 10px;   
+    color:black;
+}
+
+.fondo-tex{
+    background-color: rgba(255, 235, 205, 0.541);
+    z-index: 5;
+    padding: 10px;
+}
+
+.box-row {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content:space-around;
+  }
+
+
+
+#webs {
+  width: 400px;
+  height: 330px;
+}
+
+#diseno {
+    width: 300px;
+    height:400px;
+}
+
+footer {
+    background-color: rgba(55, 25, 56, 0.856);
+    padding: 10px;
+    text-align: center;
+    color: rgb(233, 208, 195);
+    width: 100%;
+}
+
+  

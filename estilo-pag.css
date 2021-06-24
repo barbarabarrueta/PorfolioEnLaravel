@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(184, 46, 189);
+  background-image: url("");
+  font-size: 20px;
+  color: white;
+}
+
+.nombre{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(184, 46, 189);
+    padding-right: 10px;
+}
+
+h1 {
+    color: rgb(255, 245, 245);
+    text-align: left;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 42px;
+  }
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+/*  background-color: rgb(204, 196, 185); */
+    align-items: center;
+    padding: 10px;
+    color: rgb(255, 245, 245);
+    font-size: 26px;
+}  
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(247, 218, 245);
+    align-content: center;
+    padding: 10px;   
+    color:black;
+}
+.image {
+  background-image: url("img/fondoflor.png");  
+  opacity: 0.2;
+  z-index: 1;
+  
+}
+
+.col1 {
+    align-content: center;
+    flex-grow: 1;
+    padding: 10px;
+    width: 45%;
+}
+
+
+.col2 {
+    z-index: 10;
+    align-content: center;
+    flex-grow: 1;
+    padding: 10px;
+    opacity: 1;
+}
+
+.fondo-tex{
+    background-color: rgba(255, 235, 205, 0.541);
+    z-index: 5;
+    padding: 10px;
+}
+
+.box-row {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content:space-around;
+  }
+
+
+.mandala{
+     background-image: url("img/mandala1.webp");  
+} 
+
+footer {
+    background-color: rgba(55, 25, 56, 0.856);
+    padding: 10px;
+    text-align: center;
+    color: rgb(233, 208, 195);
+    width: 100%;
+    margin-top: 80px;
+    font-size: 18px;
+}
+
+  
