@@ -7,6 +7,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
     <title>BARBARA</title>
 
     <!-- Scripts -->
@@ -21,7 +23,30 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+
+
+    <nav class="navbar navbar-expand-md navbar-light bg-gray-100">
+            <div class="container-fluid">
+                 <a class="h2 list-inline-item" href="{{ url('/') }}">Barbara Barrueta</a>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                 <ul class="navbar-nav me-auto mb-2 mb-md-0 fs-6">
+                    <li class="nav-item">
+                      <a class="nav-link text-dark" aria-current="page" href="{{ url('/#software') }}">Desarrollo de Software</a></li>
+                   <li class="nav-item">
+                      <a class="nav-link text-dark" aria-current="page" href="{{ url('/#hosting') }}">Diseño y alojamiento de sitios web</a></li>
+                   <li class="nav-item">
+                      <a class="nav-link text-dark" aria-current="page" href="{{ url('/disenio') }}" tabindex="-1" 
+                       aria-disabled="true">Diseño gráfico</a></li>
+                   <li class="nav-item">
+                      <a class=" ms-5 btn btn-outline-dark" href="{{ url('/contacto') }}" role="button">Contacto</a>
+                   </li>
+                 </ul>
+              </div>
+           </div>
+      </nav>
+
+
+   <!--     <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
@@ -31,15 +56,18 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
                     <!-- Left Side Of Navbar -->
+                 
                     <ul class="navbar-nav mr-auto">
 
                     </ul>
-
+   
                     <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
+                  
+                   <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
-                        @guest
+  <!--                       @guest
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                             </li>
@@ -71,10 +99,14 @@
                 </div>
             </div>
         </nav>
-<h1>hola</h1>
+-->      
         <main class="py-4">
             @yield('content')
-        </main>
+        </main>   
+
+     
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -15,6 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/disenio', function () {
+    return view('disenio');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/contacto', 'ContactoControler@index')->name('contacto');
+Route::resource('enviodemensaje', 'ContactoControler');
