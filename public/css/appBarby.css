@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(184, 46, 189);
+    font-size: 20px;
+    color: white;
+  }
+  .nombre{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(184, 46, 189);
+    padding-right: 10px;
+}
+  
+.fondo-tex{
+    background-color: rgba(158, 156, 152, 0.541);
+    z-index: 5;
+    padding: 10px;
+    opacity: 0.95;
+}
+
+.image {
+    background-image: url('../img/fondoflor.png');
+    z-index: 1;
+  }
+
+.mandala{
+    background-image: url("img/mandala1.webp");  
+} 

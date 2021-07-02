@@ -8,8 +8,9 @@
                         </div>
                     @endif
 
-       
-  <div class="content row p-3  bg-secondary text-white fs-5">
+  <br>
+  <br>    
+  <div class="d-flex justify-content-between row p-3 text-white">
      <div class="col">
       <h1>Bienvenidos a mi porfolio</h1>
       <h2>Quien soy</h2><br>
@@ -20,14 +21,14 @@
        </p>
      </div>
      <div class="col p-3 ">
-       <img src="img/fotopersonal1.png" width="300px"  height="350px"  alt="foto-personal">
+       <img src="{{ asset('img/fotopersonal1.png') }}" width="300px"  height="350px"  alt="foto-personal">
        <p></p>
      </div>
   </div>
 
     <br>
 
-    <div class="content row p-3  bg-secondary text-white fs-5">
+    <div class="d-flex justify-content-between row p-3  bg-secondary text-white">
       <div class="col p-3 ">
         <p id="software"><h2>Desarrollo de Software</h2></p>    
         <p>Planificar y crear dos tipos de software:
@@ -41,8 +42,8 @@
             funcionan correctamente. 
             Configurar el nuevo hardware y software, junto con los usuarios para usarlos.</p>   
       </div>
-      <div class="col p-3 ">
-        <div class= "bg-success p-3 ">
+      <div class="col p-3 image">
+        <div class= "fondo-tex">
           <p><h2>Hacerlo posible</h2></p>
           <p>Diseño e ilustración de marcas </p>
           <p>Diseño y alojamiento de sitios web</p>
@@ -52,11 +53,11 @@
         </div> 
        </div>
     </div>
-    <div class="content p-3 fs-5">
-      <div>
+    <div class="d-flex p-3 fs-5">
+      <div class="col">
        <p id="hosting"> <h1>Hosting web</h1></p>
-      <p>Servicio de diseño, alojamiento web y registro de dominio. <br>
-          tu sitio web rápido, seguro y siempre activo.</p>
+      <p>Servicio de diseño, alojamiento web y registro de dominio. 
+          Tu sitio web rápido, seguro y siempre activo.</p>
           <p></p>
       </div>
       <p></p>
@@ -70,7 +71,7 @@
                  <p>Proyectos: <a class="text-reset" href="https://www.miramaralquila.com.ar">www.miramaralquila.com.ar</a></p>
              </div> 
              <div class="col align-self-end">
-                 <p><img src="img/at.svg" height="30px" width="30" alt="aroba"> Mis redes:</img>
+                 <p><img src="{{asset('img/at.svg')}}" height="30px" width="30" alt="aroba"> Mis redes:</img>
                  <a class="text-reset" href="https://www.facebook.com/barbara.barrueta.5/">facebook</a>
                  <a class="text-reset" href="https://github.com/barbarabarrueta">github.com</a></p>
              </div>  

@@ -20,16 +20,17 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/appBarby.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
 
 
-    <nav class="navbar navbar-expand-md navbar-light bg-gray-100">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
             <div class="container-fluid">
-                 <a class="h2 list-inline-item" href="{{ url('/') }}">Barbara Barrueta</a>
+                 <a class="nombre" href="{{ url('/') }}">Barbara Barrueta</a>
               <div class="collapse navbar-collapse" id="navbarCollapse">
-                 <ul class="navbar-nav me-auto mb-2 mb-md-0 fs-6">
+                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                       <a class="nav-link text-dark" aria-current="page" href="{{ url('/#software') }}">Desarrollo de Software</a></li>
                    <li class="nav-item">

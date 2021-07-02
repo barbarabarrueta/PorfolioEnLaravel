@@ -1,11 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
+<br>
+<br>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
           <div class="card">
-          <div class="card-header h3">Formulario de Contacto</div>
+          <div class="card-header text-dark h3">Formulario de Contacto</div>
 
           <div class="card-body">
        <form class="p-2 mb-2 bg-secondary text-white" id="FormContacto" method="POST" action="{{ route('enviodemensaje.store')}}">
@@ -27,4 +29,19 @@
         </div>
     </div>
 </div>
+<br>
+<br>
+<footer>
+      <div class="row p-3  justify-content-between bg-secondary fs-5">
+          <div class="col align-self-start"> 
+             <p>Proyectos: <a class="text-reset" href="https://www.miramaralquila.com.ar">www.miramaralquila.com.ar</a></p>
+          </div> 
+          <div class="col align-self-end">
+             <p><img src="img/at.svg" height="30px" width="30" alt="aroba"> Mis redes:</img>
+             <a class="text-reset" href="https://www.facebook.com/barbara.barrueta.5/">facebook</a>
+             <a class="text-reset" href="https://github.com/barbarabarrueta">github.com</a></p>
+          </div>  
+      </div>  
+</footer>
+
 @endsection
