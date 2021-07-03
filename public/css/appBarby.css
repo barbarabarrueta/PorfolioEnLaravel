@@ -11,10 +11,10 @@ body {
 }
   
 .fondo-tex{
-    background-color: rgba(158, 156, 152, 0.541);
+    background-color: rgba(158, 156, 152, 0.623);
     z-index: 5;
     padding: 10px;
-    opacity: 0.95;
+    font-size: 22px;
 }
 
 .image {
