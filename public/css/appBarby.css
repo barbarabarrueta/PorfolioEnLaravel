@@ -11,15 +11,24 @@ body {
 }
   
 .fondo-tex{
-    background-color: rgba(158, 156, 152, 0.623);
+    background-color: rgba(158, 156, 152, 0.712);
     z-index: 5;
     padding: 10px;
     font-size: 22px;
+    border-radius: 10px;
+}
+.fondo-calculadora{
+  background-color: rgb(158, 158, 158);
 }
 
 .image {
     background-image: url('../img/fondoflor.png');
     z-index: 1;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    box-shadow: 6px 10px 10px black;
   }
 
 .mandala{

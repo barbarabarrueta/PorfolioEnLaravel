@@ -20,8 +20,8 @@
         conjuntos de software que requieran integrarse para elaborar aplicaciones.
        </p>
      </div>
-     <div class="col p-3 ">
-       <img src="{{ asset('img/fotopersonal1.png') }}" width="300px"  height="350px"  alt="foto-personal">
+     <div class="col p-3 d-flex justify-content-center">
+       <img class="shadow p-2 mb-2 bg-body rounded" src="{{ asset('img/fotopersonal1.png') }}" width="300px"  height="350px"  alt="foto-personal">
        <p></p>
      </div>
   </div>
@@ -42,8 +42,8 @@
             funcionan correctamente. 
             Configurar el nuevo hardware y software, junto con los usuarios para usarlos.</p>   
       </div>
-      <div class="col p-3 image">
-        <div class= "fondo-tex">
+      <div class="col image d-flex justify-content-center">
+        <div class= "fondo-tex shadow p-4 m-2 rounded">
           <p><h2>Hacerlo posible</h2></p>
           <p>Diseño e ilustración de marcas </p>
           <p>Diseño y alojamiento de sitios web</p>

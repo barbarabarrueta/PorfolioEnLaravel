@@ -24,3 +24,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/contacto', 'ContactoControler@index')->name('contacto');
 Route::resource('enviodemensaje', 'ContactoControler');
+Route::get('calculadora','CalculadoraController@index')->name('calculadora');
+Route::resource('calculadora','CalculadoraController');

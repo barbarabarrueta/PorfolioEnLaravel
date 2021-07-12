@@ -8,11 +8,11 @@
            <p>Desarrolo de sistemas de diseño y comunicación, 
                tanto impreso, como digital y web, orientado a diferentes mercados 
                y con diferentes contenidos y objetivos.</p>
-          <p> Construcción de una marca, diseño de material promocional y producción gráfica</p>
+          <p> Construcción de una marca, diseño de material promocional y producción gráfica.</p>
 </div> 
 <div class="container">
     <div class="row">
-        <div class="col-md p-2 " >
+        <div class="col-md p-2 ">
            <img src="./img/miramaralquila.png" width="100%" >
         </div>
         <div class="col-md p-2 ">
